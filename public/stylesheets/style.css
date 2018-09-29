@@ -3,7 +3,11 @@
     padding: 0;
     outline: 0;
 }
-
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+}
 .main-header {
     height: 129px;
     width: 100%;
@@ -50,11 +54,20 @@
     width: 100%;
     background-color: #99958C;
     box-sizing: border-box;
-    padding: 0 11.90%;
     padding-top: 70px;
+    
 }
 
-.footer-form>h1 {
+.footer-form {
+    float: left;
+    /* padding-right: 230px; */
+    padding-left: 11.90%;
+    width: 46.6%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.footer-form>h2,
+.footer-address>h2 {
     color: #FFFFFF;
     font-family: PlayfairDisplay;
     font-size: 36px;
@@ -63,7 +76,7 @@
 
 .hello-form>input {
     border: none;
-    width: 34.7%;
+    width: 100%;
     border-bottom: 1px solid #FFFFFF;
     color: #FFFFFF;
     background: #99958C;
@@ -97,4 +110,86 @@
     box-sizing: border-box;
     text-transform: uppercase;
     cursor: pointer;
+}
+.footer-address{
+    float: left;
+    padding-left: 11.90%;
+    width: 46.6%;
+    box-sizing: border-box;
+}
+.first-address-field{
+    display: block;
+    overflow: hidden;
+}
+.sec-address-field{
+    overflow: hidden;
+    display: block;
+    margin-top: 94px;
+}
+.address-div-one,
+.address-div-two{
+    float: left;
+    width: 230px;
+}
+.address-div-three,
+.address-div-four{
+    float: left;
+    width: 230px;
+}
+.address-div-two,
+.address-div-four{
+    margin-left: 4.27%;
+}
+.address-div-one>p,
+.address-div-two>p,
+.address-div-three>p,
+.address-div-four>p{
+	color: #FFFFFF;
+	font-family: PlayfairDisplay;
+	font-size: 24px;
+}
+.social-icons>span{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-right: 29px;
+}
+.social-icons>span:last-child{
+    margin-right: 0px;
+}
+
+.first-section{
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    height: 800px;
+    width: 100%;
+    padding: 0 7.76%;
+}
+.portfolio-div {
+	height: 650px;
+    width: 41.67%;
+    background-color: #a3775d;
+    padding: 1.7% 8.5%;
+    box-sizing: border-box;
+}
+.portfolio-div>h3{
+    color: #FEFEFE;
+    font-family: PlayfairDisplay;
+    font-size: 34px;
+    line-height: 46px;
+    margin-bottom: 60px;
+}
+.portfolio-div>p{
+	color: #FFFEFE;
+	font-family: PlayfairDisplay;
+	font-size: 22px;
+	/* letter-spacing: 25px; */
+	line-height: 36px;
 }
