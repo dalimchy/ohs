@@ -8,8 +8,10 @@
     height: 129px;
     width: 100%;
     display: block;
-    background-color: red;
+    background-color: #FFFFFF;
+    position: -webkit-sticky;
     position: sticky;
+    top: 0;
 }
 
 .main-menu {
@@ -22,12 +24,12 @@
     font-family: PlayfairDisplay;
     color: #000000;
     font-size: 18px;
-    /* letter-spacing: 25px; */
     line-height: 28px;
     padding: 28px;
-    background-color: #DBDBDB;
+    background-color: #FFFFFF;
     margin: 23px 0;
     cursor: pointer;
+    float: left;
 }
 
 .main-menu>:last-child {
@@ -40,6 +42,7 @@
     display: block;
     overflow: hidden;
     border-top: 2px solid #5f697a;
+    min-height: 500px;
 }
 
 .main-footer {
