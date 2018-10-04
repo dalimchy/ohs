@@ -3,6 +3,18 @@
     padding: 0;
     outline: 0;
 }
+.OhsLogo {
+	height: 112px;
+    width: 151px;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    margin: 8px 0px 8px 140px;
+}
+.OhsLogo img{
+    height: 112px;
+    width: 151px;
+}
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     background-color: transparent !important;
     background-image: none !important;
