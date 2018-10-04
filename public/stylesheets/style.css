@@ -50,6 +50,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     overflow: hidden;
     border-top: 1px solid #5f697a;
     min-height: 500px;
+    background: #F8F7F4;
 }
 
 .main-footer {
@@ -212,7 +213,6 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     display: block;
     box-sizing: border-box;
     height: auto;
-    background:red;
     width: 100%;
     padding: 0px 8.54%;
     margin-top: 146px;
@@ -221,7 +221,6 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 .section_title{
     height: 35px;
     display: block;
-    background-color: gray;
     position: relative;
 }
 .section_title p{
@@ -321,7 +320,6 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     height: 78px;	
     width: 742px;
     margin-left: 4.48%;
-    background: red;
 }
 .ex_opportunities p{
     color: #030303;
@@ -337,14 +335,12 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     width: 100%;
     box-sizing: border-box;
     padding: 0px 4.95%;
-    background: blue;
     overflow: hidden;
 }
 .inv_exp{
     display: block;
     width: 100%;
     height: 400px;
-    background: rebeccapurple;
 }
 .inv_Img{
     height: 400px;
@@ -358,7 +354,6 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     width: 50%;
     display: inline-block;
     float: left;
-    background: #faf7f7;
     box-sizing: border-box;
     padding: 38px 0px 44px 0px;
 }
